@@ -1,0 +1,15 @@
+<?php
+// Step 1: Define a magical incantation string with varied casing, "   ABRACADABRA   ".
+$incantation = "   ABRACADABRA   ";
+// Step 2: Remove excess whitespace from both ends.
+$trimmed_incantation = trim($incantation);
+// Step 3: Convert the cleaned incantation to lowercase.
+$lowercase_incantation = strtolower($trimmed_incantation);
+// Step 4: Check if the incantation matches the correct version "abracadabra".
+if ($lowercase_incantation == "abracadabra") {
+    // Step 5: Output whether the incantation is correct or if magic is in danger!
+    echo "Incantation is correct";
+} else {
+    echo "Magic is in danger!";
+}
+?>
